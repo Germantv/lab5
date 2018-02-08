@@ -19,6 +19,7 @@ $(".click-listener").click(function(event) {
 	console.log(name);
 	var agramName = anagrammedName(name);
 	$(this).first().text(agramName);
+	console.log(agramName)
 });
 
 function anagrammedName(name) {
