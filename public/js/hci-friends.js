@@ -10,7 +10,6 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
-}
 
 $(".click-listener").click(function(event) {
 	event.preventDefault();
@@ -19,8 +18,8 @@ $(".click-listener").click(function(event) {
 	console.log(name);
 	var agramName = anagrammedName(name);
 	$(this).first().text(agramName);
-	console.log(agramName)
 });
+}
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
